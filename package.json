@@ -1,0 +1,23 @@
+{
+  "name": "tasksapp",
+  "version": "1.0.0",
+  "description": "A simple classy tasks app\u001b[D\u001b[D\u001b[D\u001b[D ()\u001b[\u001b[Dtodo) application..!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "./node_modules/.bin/env-cmd -f ./config/dev.env nodemon src/index.js"
+  },
+  "author": "Talal",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "env-cmd": "^10.1.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.0",
+    "mongoose": "^5.9.27",
+    "multer": "^1.4.2",
+    "sharp": "^0.25.4",
+    "validator": "^13.1.1"
+  }
+}
